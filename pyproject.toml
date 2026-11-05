@@ -1,0 +1,19 @@
+[project]
+name = "aigc-video-studio"
+version = "0.1.0"
+description = "面向生产环境的多模态营销视频生成平台"
+readme = "README.md"
+authors = [
+    { name = "wenqing12359", email = "3169747436@qq.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "langchain>=1.4.9",
+]
+
+[project.scripts]
+aigc-video-studio = "aigc_video_studio.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"

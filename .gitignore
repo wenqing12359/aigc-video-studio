@@ -1,0 +1,38 @@
+# Python 生成文件
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 虚拟环境
+.venv
+
+# 本地配置与密钥
+.env
+.env.*
+!.env.example
+
+# IDE 与操作系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 运行时数据
+logs/
+tmp/
+data/
+artifacts/
+
+# 前端依赖与构建产物
+node_modules/
+frontend/dist/
+frontend/.next/
